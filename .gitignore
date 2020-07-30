@@ -1,0 +1,6 @@
+package-lock.json
+logs
+*.log
+*.zip
+node_modules
+.idea
