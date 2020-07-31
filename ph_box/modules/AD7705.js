@@ -220,7 +220,8 @@ AD7705.prototype.init = function(
   AD7705.init(channel, CLK_DIV_1, BIPOLAR, GAIN_1, UPDATE_RATE_25);
 }
 
-exports.AD7705 = AD7705;
+module.exports = AD7705;
+//exports.AD7705 = AD7705;
 
 
 /*
